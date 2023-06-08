@@ -9,5 +9,6 @@ router
 .put("/:id", EmpreendedoraController.updateEmpreendedoras)
 .delete("/:id", EmpreendedoraController.deleteEmpreendedoras)
 .get("/:id", EmpreendedoraController.getByIdEmpreendedoras)
+.get("/:id", EmpreendedoraController.getByEmpreendimento)
 
 module.exports = router;
